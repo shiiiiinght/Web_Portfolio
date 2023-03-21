@@ -1,31 +1,51 @@
 body{
    font-family: "Arial";
-   background-color: rgb(244, 246, 251);
+   color: black;
+   margin: 0px;
 }
 
 button{
-   background-color: black;
+   cursor: pointer;
+}
+
+#learn-more{
+   background-color:rgb(10, 10, 10);
    color: white;
-   border-radius: 5px;
    border: none;
-   padding: 10px;
-   font-size: 100%;
+   font-weight: bold;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+   border-radius: 16px;
 }
 
-.twoBlock{
-   padding: 100px;
-   gap: 5%;
+#navbar{
    display: flex;
-   height: 50vh;
-   justify-content: center;
-   align-items: center;
+   justify-content: right;
+   align-content: top;
+   flex-direction: row;
+   padding: 2px;
 }
 
-.navbar{
-   display: flex;
-   justify-content: flex-end;
-   flex-direction: row-reverse;
-   gap: 5%;
+.nav{
+   margin-left: 5px;
+   background-color:rgb(43, 43, 43);
+   color: white;
+   border: none;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 8px;
+   padding-right: 8px;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 17px;
+   transition: background-color 0.15s, color 0.15s;
+}
+
+.nav:hover{
+   background-color: white;
+   color: rgb(43, 43, 43);
 }
 
 .seperate{
@@ -36,6 +56,37 @@ button{
 
 #myProfile{
    border-radius: 50%;
-   width: 300px;
-   height: 300px;
+   height: 250px;
+   width: 250px;
+}
+
+.twoBlock{
+   padding: 30px;
+   padding-top: 50px;
+   display: flex;
+   height: 60vh;
+   gap: 20%;
+   justify-content: center;
+   align-items: center;
+}
+
+#header{
+   display: flex;
+   padding-top: 5px;
+   padding: 8px;
+   height: 15vh;
+   justify-content: space-between;
+   align-items: center;
+   background-color:rgb(43, 43, 43);
+}
+
+#name{
+   font-weight: bold;
+   font-size: 30px;
+   margin-left: 10px;
+   color: white;
+}
+
+#intro{
+   color:rgb(10, 10, 10);
 }

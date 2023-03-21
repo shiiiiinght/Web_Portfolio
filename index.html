@@ -11,18 +11,23 @@
    </head>
    <body>
       <!-- Navigation Bar -->
-      <div class="home">
+      <div id="header">
+         <p id="name">Jason Wang</p>
          <div id="navbar">
-            <button>Home</button>
-            <button>About</button>
-            <button>Contact</button>
+            <button class="nav">Home</button>
+            <button class="nav">Experience</button>
+            <button class="nav">Education</button>
+            <button class="nav">About</button>
+            <button class="nav">Contact</button>
          </div>
+      </div>
 
+      <div class="home">
          <div class="twoBlock">
-            <div>
+            <div id="intro">
                <h1>Jason Wang</h1>
                <h2>College Student</h2>
-               <button onclick=scrollToAbout()>Learn More</button>
+               <button onclick=scrollToAbout() id="learn-more">Learn More</button>
             </div>
 
             <img src="./images/myPic.jpg" id="myProfile"/>
@@ -36,8 +41,6 @@
                <h1>About Me</h1>
                <h2></h2>
             </div>
-
-
          </div>
       </div>
 
