@@ -14,15 +14,38 @@
       <div id="header">
          <p id="name">Jason Wang</p>
          <div id="navbar">
-            <button class="nav">Home</button>
-            <button class="nav">Experience</button>
-            <button class="nav">Education</button>
-            <button class="nav">About</button>
-            <button class="nav">Contact</button>
+            <button class="nav" id="home">
+               Home
+            </button>
+            <div class="dropdown">
+               <button class="nav" id="experience">
+                  Experience
+               </button>
+               <div class="dropdown-content">
+                  <a href="robotics.html" target="_blank">Robotics</a>
+                  <a href="coding.html" target="_blank">Coding</a>
+                  <a href="leadership.html" target="_blank">Leadership</a>
+               </div>
+            </div>
+            <div class="dropdown">
+               <button class="nav" id="education">
+                  Education
+               </button>
+               <div class="dropdown-content">
+                  <a href="fvhs.html" target="_blank">FVHS</a>
+                  <a href="occ.html" target="_blank">OCC</a>
+               </div>
+            </div>
+            <button class="nav" id="about">
+               About
+            </button>
+            <button class="nav" id="contact">
+               Contact
+            </button>
          </div>
       </div>
 
-      <div class="home">
+      <div class="home" src="./images/background2.png">
          <div class="twoBlock">
             <div id="intro">
                <h1>Jason Wang</h1>
