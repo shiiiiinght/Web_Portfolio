@@ -1,18 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <title>Jason Wang's Porfolio</title>
-      <link href="index.css" href="stylesheet" />
-   </head>
-   <body>
-      <!-- Navigation Bar-->
-      <nav class="nav" id="nav">
-         <ul class="nav-list">
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
-         </ul>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  <body>
+    <header>
+      <h1 id="header-name">Jason Wang</h1>
+      <nav>
+        <ul id="nav-list">
+          <li class="nav"><a href="#about-me" class="nav-content">About Me</a></li>
+          <li class="nav"><a href="#portfolio" class="nav-content">Portfolio</a></li>
+          <li class="nav"><a href="#contact" class="nav-content">Contact</a></li>
+        </ul>
       </nav>
-   </body>
+    </header>
+    <main class="welcome">
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>Insert your bio or summary here.</p>
+      </section>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <ul>
+          <li>
+            <h3>Project 1</h3>
+            <p>Insert description and link to project here.</p>
+          </li>
+          <li>
+            <h3>Project 2</h3>
+            <p>Insert description and link to project here.</p>
+          </li>
+          <li>
+            <h3>Project 3</h3>
+            <p>Insert description and link to project here.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; My Portfolio</p>
+    </footer>
+  </body>
 </html>

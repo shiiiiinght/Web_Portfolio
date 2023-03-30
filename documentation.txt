@@ -1,0 +1,14 @@
+Day 1 -
+	What I Did:
+		Asked chatGPT to create a template as a reference
+		Created the basic navigation bar and welcome page's basic html element
+		Added basic setting for css code
+		Created most of the navigation bar's css code
+	What I Learned:
+		How to make the navigation bar fixed on the top of the screen
+		How to change the element's css property when hover over the element
+
+Day 2 - 
+	What I Did: 
+		
+	What I Learned:
